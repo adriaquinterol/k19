@@ -1,3 +1,4 @@
+#! /bin/bash
 cp /opt/docker/krb5.conf /etc/krb5.conf
 cp /opt/docker/kdc.conf /var/kerberos/krb5kdc/kdc.conf
 cp /opt/docker/kadm5.acl /var/kerberos/krb5kdc/kadm5.acl
@@ -10,3 +11,11 @@ kadmin.local -q "addprinc -pw kuser04 user04"
 kadmin.local -q "addprinc -pw kuser05 user05"
 kadmin.local -q "addprinc -pw kuser06 user06"
 kadmin.local -q "addprinc -randkey host/sshd.edt.org"
+kadmin.local -q "addprinc -pw kpere pere"
+kadmin.local -q "addprinc -pw kpere pau/admin"
+kadmin.local -q "addprinc -pw kanna anna"
+kadmin.local -q "addprinc -pw kpau pau"
+kadmin.local -q "addprinc -pw kjordi jordi"
+kadmin.local -q "addprinc -pw kmarta marta"
+kadmin.local -q "addprinc -pw kmarta marta/admin"
+kadmin.local -q "addprinc -pw kjulia julia"

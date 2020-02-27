@@ -1,5 +1,5 @@
 #! /bin/bash
-/opt/docker/install.sh && echo "Ok install"
-/usr/sbin/nslcd && echo "nslcd Ok"
-/usr/sbin/nscd && echo "nscd Ok"
+/opt/docker/install.sh
+/usr/sbin/nslcd
+/usr/sbin/nscd
 /bin/bash

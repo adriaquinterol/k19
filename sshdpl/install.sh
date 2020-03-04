@@ -16,6 +16,7 @@ cp /opt/docker/nslcd.conf /etc/nslcd.conf
 cp /opt/docker/ldap.conf /etc/openldap/ldap.conf
 cp /opt/docker/nsswitch.conf /etc/nsswitch.conf
 cp /opt/docker/sshd_config /etc/ssh/sshd_config
+cp /opt/docker/ssh_config /etc/ssh/ssh_config
 
 echo "session optional pam_mkhomedir.so" >> /etc/pam.d/system-auth
 bash /opt/docker/auth.sh

@@ -1,2 +1,2 @@
 #! /bin/bash
-cp /opt/docker/index.html /var/www/html/index.html
+echo "hola bon dia $(hostname)" > /var/www/html/index.html
